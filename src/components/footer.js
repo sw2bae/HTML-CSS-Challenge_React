@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
 
@@ -23,12 +22,12 @@ function Footer() {
     }
 
     return (
-        <div>
+        <>
             <div style={phantom} />
             <div style={style}>
                 “I wish I can make it”
             </div>
-        </div>
+        </>
     )
 }
 
