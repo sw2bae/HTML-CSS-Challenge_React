@@ -2,31 +2,12 @@ import React from "react";
 
 function Footer() {
 
-    var style = {
-        backgroundColor: "#F8F8F8",
-        borderTop: "1px solid #E7E7E7",
-        textAlign: "center",
-        padding: "20px",
-        position: "fixed",
-        left: "0",
-        bottom: "0",
-        height: "60px",
-        width: "100%",
-    }
-
-    var phantom = {
-        display: 'block',
-        padding: '20px',
-        height: '60px',
-        width: '100%',
-    }
-
     return (
         <>
-            <div style={phantom} />
-            <div style={style}>
-                “I wish I can make it”
-            </div>
+
+            <nav className="navbar sticky-bottom bg-primary mt-5 rounded-0">
+                <a className="navbar-brand text-white mx-auto" target="_blank" href="https://github.com/sw2bae/HTML-CSS-Challenge_React">"SAY WOOF!"</a>
+            </nav>
         </>
     )
 }
