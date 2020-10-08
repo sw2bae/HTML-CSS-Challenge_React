@@ -1,5 +1,6 @@
 body {
   font-family: "Baloo Paaji 2", cursive;
+  padding-bottom: 55px;
 }
 
 @media (min-width: 768px) {
