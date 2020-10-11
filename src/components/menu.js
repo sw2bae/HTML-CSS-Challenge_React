@@ -1,23 +1,23 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Menu({ dogName, getDogImgs }) {
 
     return (
 
         <nav className="navbar sticky-top mb-3 bg-primary rounded-0 navbar-expand-sm">
-            <a className="navbar-toggler" data-toggle="collapse" href="#" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <Link className="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="text-white">🐶WOOF!</span>
-            </a>
+            </Link>
             <div className="collapse navbar-collapse row" id="navbarSupportedContent">
                 {dogName.map((dog, index) => {
                     return (
                         <ul className="nav-item text-sm-center col-sm mt-1 mb-1 mt-sm-3 mb-sm-3">
-                            <a className="font-weight-bold text-white bg-primary card border-0" onClick={getDogImgs} href="#" key={index} id={dog.toLowerCase()}>{dog.toUpperCase()}</a>
+                            <Link className="font-weight-bold text-white bg-primary card border-0" onClick={getDogImgs} key={index} id={dog.toLowerCase()}>{dog.toUpperCase()}</Link>
                         </ul>
                     )
                 })}
             </div>
-
         </nav>
     )
 }

@@ -3,6 +3,7 @@ import Menu from './components/menu';
 import Content from './components/content';
 import Footer from './components/footer';
 import API from './util/API';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 
 
@@ -27,13 +28,12 @@ function App() {
     })
   }, []);
 
-
   return (
-    <>
+    <Router>
       <Menu dogName={dogName} getDogImgs={getDogImgs} />
       <Content dogData={dogData} currentDogBreed={currentDogBreed} />
       <Footer />
-    </>
+    </Router>
   );
 }
 

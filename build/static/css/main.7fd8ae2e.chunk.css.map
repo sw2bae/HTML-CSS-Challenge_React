@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,mCAAqC,CACrC,mBACF,CAQA,QACE,oBACF","file":"main.7fd8ae2e.chunk.css","sourcesContent":["body {\n  font-family: \"Baloo Paaji 2\", cursive;\n  padding-bottom: 55px;\n}\n\n@media (min-width: 768px) {\n  nav {\n    /* font-size: 20px; */\n  }\n}\n\na:hover {\n  text-decoration: none;\n}\n"]}
