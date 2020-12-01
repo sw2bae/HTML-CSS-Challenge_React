@@ -2,19 +2,7 @@ body {
   font-family: "Baloo Paaji 2", cursive;
   padding-bottom: 55px;
 }
-/* 
-@media (max-width: 576px) {
-  nav {
-    font-size: 15px !important;
-  }
-} */
 
 a:hover {
   text-decoration: none;
-}
-
-img {
-  /* padding: 0 !important; */
-
-  /* filter: grayscale(90%); */
 }
